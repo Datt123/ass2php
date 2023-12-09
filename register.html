@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/css01.css">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 form-container">
+      <!-- Registration Form -->
+      <h2>Registration</h2>
+      
+      <!-- Form submission to register.php using the POST method -->
+      <form action="insert.php" method="post">
+        <div class="form-group">
+          <label for="rfname">FirstName</label>
+          <input type="text" class="form-control" id="rfname" name="rfname" required>
+        </div>
+        <div class="form-group">
+          <label for="rlname">LastName</label>
+          <input type="text" class="form-control" id="rlname" name="rlname" required>
+        </div>
+        <div class="form-group">
+          <label for="registerEmail">EmailAddress</label>
+          <input type="email" class="form-control" id="registerEmail" name="registerEmail" required>
+        </div>
+        <div class="form-group">
+          <label for="registerPassword">Password</label>
+          <input type="password" class="form-control" id="registerPassword" name="registerPassword" required>
+        </div>
+
+        <!-- Submit button for the registration form -->
+        <button type="submit" class="btn btn-primary">RegisterHere</button>
+        
+        <!-- Link to the login page -->
+        <a href="login.html" target="_blank" rel="noopener noreferrer">If you already got account.. Login here</a>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+/* Custom CSS for Registration Form */
+body {
+  font-family: 'Bree Serif', serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3498db; /* Belize Hole Blue */
+  color: #ecf0f1; /* Clouds Gray */
+}
+
+.container {
+  background-color: #34495e; /* Wet Asphalt Blue */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ecf0f1; /* Clouds Gray */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border: 1px solid #bdc3c7; /* Silver */
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  border-color: #3498db; /* Belize Hole Blue */
+}
+
+.btn-primary {
+  background-color: #3498db; /* Belize Hole Blue */
+  color: #ecf0f1; /* Clouds Gray */
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9; /* Belize Hole Blue - Darker Shade */
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #3498db; /* Belize Hole Blue */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
